@@ -3,8 +3,6 @@ function createShoppingCard() {
 
     function saveCard() {
         localStorage.setItem("myShoppingCart", JSON.stringify(cart));
-
-
     }
 
     return {
@@ -21,9 +19,11 @@ function createShoppingCard() {
             if(existingItem){
                 existingItem.amount += 1;
 
-            } else(
-                cart.cartItems.push({id: id, price: price, amount:1, title: title })
-            )
+            } else {
+                cart.cartItems.push({id: id, price: price, amount:1, title: title });
+
+            }
+
             saveCart();
         },
 
