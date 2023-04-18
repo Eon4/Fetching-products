@@ -1,11 +1,11 @@
 function getProducts() {
-    return fetch("https://dummyjson.com/products")
+    return fetch("https://dummyjson.com/products?limit=8")
       .then((response) => response.json())
       .then((data) => data)
       .catch((error) => console.error(error));
   }
   
-  // const containerElement = document.querySelector(".product-container") testing;
+  // const containerElement = document.querySelector(".product-container");
   const containerElement = document.querySelector("#products");
   
   function addProductTooDom(products) {
