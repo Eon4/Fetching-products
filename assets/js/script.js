@@ -26,7 +26,7 @@ function getProducts() {
   
           <section class="purshare">
             <p class="product-price">$${products.price}</p>
-            <button onclick="shoppingCart.increaseCartQuantity(${products.id}, '${products.title}', ${products.price})" class="add-to-cart">Add to cart</button>
+            <button onclick="shoppingCart.increaseCartQuantity(${products.id}, '${products.title}', ${products.price}, '${products.thumbnail}')" class="add-to-cart">Add to cart</button>
            <button onclick="shoppingCart.setDeleteItems(${products.id})">Slet produkt</button>
            </section>
     
