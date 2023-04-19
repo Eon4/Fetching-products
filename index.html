@@ -13,9 +13,28 @@
   </head>
   <body>
     <header>min fede header</header>
+
+      <!-- <p>Se kurv</p> -->
+      <img class="cart-container"  src="assets/img/shopping-cart-icon-29090.jpg">
+    </div><br>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Åben indkøbskurv</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal CART content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Vare tilføjet i indkøbskurven:</h4>
+    <pre class="myProducts"></pre>
+
+    <button onclick="shoppingCart.setEmptyCart()">Tøm ALT</button>
+  </div>
+</div>
     <section class="product-container">
         <main id="products"></main>
     </section>
-    <footer>Min fede footer<button onclick="shoppingCart.setEmptyCart()">Tøm ALT</button></footer>
+    <footer>Min fede footer</footer>
   </body>
 </html>
