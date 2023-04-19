@@ -32,7 +32,7 @@ function createShoppingCart() {
     },
 
     // Metode to increase the quantity of an item in the shopping cart
-    increaseCartQuantity: function (id, price, title) {
+    increaseCartQuantity: function (id, price, title, thumbnail) {
       // Find the existing item in the cart
       let exisitingItem = cart.cartItems.find(function (item) {
         return item.id === id;
@@ -52,3 +52,5 @@ function createShoppingCart() {
 }
 
 const shoppingCart = createShoppingCart();
+
+
