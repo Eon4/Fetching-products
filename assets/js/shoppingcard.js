@@ -13,7 +13,7 @@ function createShoppingCart() {
 
   // Return an object with a number of metodes for manipulating the shopping cart
   return {
-    // Metode to get the items in the shopping cart
+    // Metode to get the items in the shopping cart - test
     getCartItems: function () {
       return cart.cartItems;
     },
