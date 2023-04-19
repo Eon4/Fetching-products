@@ -53,5 +53,5 @@ function createShoppingCart() {
 
 const shoppingCart = createShoppingCart();
 
-
+//Får info om hvilke produkter der er shoppingcart
 console.log("cartitems",shoppingCart.getCartItems());
