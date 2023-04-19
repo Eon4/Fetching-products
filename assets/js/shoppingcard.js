@@ -45,7 +45,7 @@ function createShoppingCart() {
         // If the item does not exist in the cart, add it
         cart.cartItems.push({ id: id, price: price, amount: 1, title: title });
       }
-      // Save the changes to the cart
+      // Save the changes to the cart - test
       saveCart();
     },
   };
