@@ -54,3 +54,4 @@ function createShoppingCart() {
 const shoppingCart = createShoppingCart();
 
 
+console.log("cartitems",shoppingCart.getCartItems());
