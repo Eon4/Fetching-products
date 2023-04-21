@@ -26,6 +26,9 @@
   
   header {
     text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: rgb(255, 69, 0);
   }
   
   .product-description {
@@ -101,10 +104,11 @@
   .add-to-cart:hover {
     background-color: rgba(255, 255, 60, 0.584);
   }
-/* 
+
   footer{
-    position: fixed;
-  } */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 0, 128);
+  }
 
   .cart-container {
     width: 5%;
