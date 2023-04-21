@@ -83,7 +83,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-//  DENNE SEKTION HANDLER OM AT VISE ALLE PRODUKTER I Modalen
+//  DENNE SEKTION HANDLER OM AT VISE ALLE PRODUKTER I MODALEN
 // const array = [1, 2, 3, 4, 5];
 
 const stringy = JSON.stringify(shoppingCart.getCartItems());

@@ -169,5 +169,6 @@
 }
 
 h4 {
-  text-align: start;
+  /* text-align: start; */
+  margin: 10px;
 }
