@@ -43,9 +43,9 @@ function createShoppingCart() {
         exisitingItem.amount += 1;
       } else {
         // If the item does not exist in the cart, add it
-        cart.cartItems.push({ id: id, price: price, amount: 1, title: title});
+        cart.cartItems.push({ id: id, price: price, amount: 1, title: title, thumbnail: thumbnail});
       }
-      // Save the changes to the cart - test
+      // Save the changes to the cart -
       saveCart();
     },
   };
@@ -86,6 +86,17 @@ window.onclick = function(event) {
 //  DENNE SEKTION HANDLER OM AT VISE ALLE PRODUKTER I MODALEN
 // const array = [1, 2, 3, 4, 5];
 
-const stringy = JSON.stringify(shoppingCart.getCartItems());
 
-document.querySelector(".myProducts").innerHTML = stringy;
+// document.querySelector(".myProducts").innerHTML = stringy;
+// console.log(shoppingCart);
+
+function renderCart (){ 
+  // console.log( shoppingCart.getCartItems());
+  shoppingCart.getCartItems().map((product) => {
+    console.log(product);
+  });
+  }
+
+
+
+renderCart();
